@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - suelo
+  - Traspaso
+  - Poder2
+  - Arbol
+  - player
+  - poder2
+  - viento
+  - seta
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 1
+  - 2
+  - 3
+  - 4
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2959743491
+    locked: 0
+  - name: Foreground
+    uniqueID: 3955151399
+    locked: 0
+  - name: Player
+    uniqueID: 2401195957
+    locked: 0
