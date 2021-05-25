@@ -52,6 +52,9 @@ TagManager:
   - name: Background
     uniqueID: 2959743491
     locked: 0
+  - name: particulas
+    uniqueID: 1218139849
+    locked: 0
   - name: Foreground
     uniqueID: 3955151399
     locked: 0
