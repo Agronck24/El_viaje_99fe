@@ -61,5 +61,24 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
-Assets/*
-
+Assets/Animation*
+Assets/ASSETS*
+Assets/Background Levels*
+Assets/Botones*
+Assets/Editor*
+Assets/Material*
+Assets/Menu*
+Assets/Prefab*
+Assets/ProjectSettings*
+Assets/Samples*
+Assets/Scenes*
+Assets/Scripts*
+Assets/SONIDOS*
+Assets/Spine*
+Assets/Scrpits*
+Assets/Spine*
+Assets/Spine Examples*
+Assets/StreamingAssets*
+Assets/Sunnyland*^
+Assets/TextMesh Pro*
+Assets/Textos*
