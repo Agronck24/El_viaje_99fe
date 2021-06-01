@@ -286,7 +286,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: 3cf464492adc2b74782b7cee76b72cb0,
+    m_HighlightedSprite: {fileID: 21300000, guid: 8a60625a739b41e4dbdd3d6fd700286f,
       type: 3}
     m_PressedSprite: {fileID: 0}
     m_SelectedSprite: {fileID: 0}
@@ -640,14 +640,14 @@ RectTransform:
   m_GameObject: {fileID: 370496861}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.557268, y: 0.557268, z: 0.557268}
+  m_LocalScale: {x: 0.4136099, y: 0.4136099, z: 0.4136099}
   m_Children: []
   m_Father: {fileID: 2135921110}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000021458, y: -61.1}
+  m_AnchoredPosition: {x: -0.000021458, y: -38.26001}
   m_SizeDelta: {x: 228, y: 29}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &370496863
@@ -1583,6 +1583,7 @@ GameObject:
   - component: {fileID: 803406067}
   - component: {fileID: 803406069}
   - component: {fileID: 803406068}
+  - component: {fileID: 803406070}
   m_Layer: 5
   m_Name: Farolillo (1)
   m_TagString: Untagged
@@ -1646,6 +1647,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 803406066}
   m_CullTransparentMesh: 0
+--- !u!95 &803406070
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803406066}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2f587c6b15a4f8c4ea7858a110dcd305, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &862636795
 GameObject:
   m_ObjectHideFlags: 0
@@ -1713,14 +1733,14 @@ RectTransform:
   m_GameObject: {fileID: 869707931}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.557268, y: 0.557268, z: 0.557268}
+  m_LocalScale: {x: 0.4136099, y: 0.4136099, z: 0.4136099}
   m_Children: []
   m_Father: {fileID: 2135921110}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2, y: -20.194723}
+  m_AnchoredPosition: {x: 1.4844, y: -7.9}
   m_SizeDelta: {x: 226, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &869707933
@@ -1911,6 +1931,7 @@ GameObject:
   - component: {fileID: 949767804}
   - component: {fileID: 949767807}
   - component: {fileID: 949767806}
+  - component: {fileID: 949767805}
   m_Layer: 5
   m_Name: Farolillo
   m_TagString: Untagged
@@ -1937,6 +1958,25 @@ RectTransform:
   m_AnchoredPosition: {x: -0.34008, y: -0.19131}
   m_SizeDelta: {x: 1189.1382, y: 668.89026}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &949767805
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949767803}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b16408c3ae895c54881bed60a3c3b1d3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &949767806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1985,6 +2025,7 @@ GameObject:
   - component: {fileID: 950332432}
   - component: {fileID: 950332434}
   - component: {fileID: 950332433}
+  - component: {fileID: 950332435}
   m_Layer: 5
   m_Name: Farolillo (2)
   m_TagString: Untagged
@@ -2048,6 +2089,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 950332431}
   m_CullTransparentMesh: 0
+--- !u!95 &950332435
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 950332431}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cf8ee6dc30cd4a04096576cdd4450390, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1242368223
 GameObject:
   m_ObjectHideFlags: 0
@@ -2343,7 +2403,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: 1cae0109f4282934e8ecdb58e7fe0605,
+    m_HighlightedSprite: {fileID: 21300000, guid: 03e928e6b4a78e2489b2a6dd295697cf,
       type: 3}
     m_PressedSprite: {fileID: 0}
     m_SelectedSprite: {fileID: 0}
@@ -2535,14 +2595,14 @@ RectTransform:
   m_GameObject: {fileID: 1442930131}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.557268, y: 0.557268, z: 0.557268}
+  m_LocalScale: {x: 0.4136099, y: 0.4136099, z: 0.4136099}
   m_Children: []
   m_Father: {fileID: 2135921110}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000014305, y: 18.5}
+  m_AnchoredPosition: {x: 0.0000014305, y: 20.81979}
   m_SizeDelta: {x: 287, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1442930133
@@ -2714,7 +2774,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: 2128b0bf9b6c4ba41a6cccc476e833a2,
+    m_HighlightedSprite: {fileID: 21300000, guid: 7308d4b77fd7ce3499276dcde9719872,
       type: 3}
     m_PressedSprite: {fileID: 0}
     m_SelectedSprite: {fileID: 0}
@@ -2926,7 +2986,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: 2128b0bf9b6c4ba41a6cccc476e833a2,
+    m_HighlightedSprite: {fileID: 21300000, guid: b58ddd05a1f492f428bf664cbbefe1f8,
       type: 3}
     m_PressedSprite: {fileID: 0}
     m_SelectedSprite: {fileID: 0}
@@ -3478,7 +3538,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000018299, y: -106.3}
+  m_AnchoredPosition: {x: -0.000018299, y: -67.8}
   m_SizeDelta: {x: 172.92517, y: 23.36827}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1870181318
@@ -3509,7 +3569,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: 01e8852204984144aa70c35e99934318,
+    m_HighlightedSprite: {fileID: 21300000, guid: f00c0795b4fc0494d8505222552beab4,
       type: 3}
     m_PressedSprite: {fileID: 0}
     m_SelectedSprite: {fileID: 0}
@@ -3724,7 +3784,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: a3d6ed048be9d7b458448eefd8b3c38a,
+    m_HighlightedSprite: {fileID: 21300000, guid: ccf264e5eb6fb1d4e98028164b8957b0,
       type: 3}
     m_PressedSprite: {fileID: 0}
     m_SelectedSprite: {fileID: 0}
