@@ -62,7 +62,11 @@ sysinfo.txt
 crashlytics-build.properties
 
 
-Assets/ASSETS/trees*
+Assets/ASSETS/trees/ARBOL*
+Assets/ASSETS/trees/ARBOL2*
+Assets/ASSETS/trees/ARBOL3*
+Assets/ASSETS/trees/ARBOL4*
+Assets/ASSETS/trees/ARBOL5*
 
 Assets/Animation*
 
