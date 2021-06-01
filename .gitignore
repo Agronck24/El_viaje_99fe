@@ -62,9 +62,8 @@ sysinfo.txt
 crashlytics-build.properties
 
 
-Assets/animation/Animaciones*
-
-Assets/animation/OTHER/dash/UNO*
+Assets/animation/Animaciones/NEW_ANIMACION/idle*
+Assets/animation/Animaciones/NEW_ANIMACION/walk*
 
 
 
