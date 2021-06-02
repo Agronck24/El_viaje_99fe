@@ -7,14 +7,14 @@ public class Alma2 : MonoBehaviour
 
   public PlayerControler2D player;
 
-  public Mov Animalito;
+ public PuzzleAlmas Puzzle;
 
   
 
       void OnTriggerEnter2D(Collider2D obj){
         if(obj.tag=="Player"){
              
-             player.TAlma2=true;
+             Puzzle.TAlma2=true;
            
             gameObject.SetActive(false);
         }
