@@ -13,6 +13,6 @@ public class DestroyText : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Destroy(gameObject, 3.5f);
+        Destroy(gameObject, 4f);
     }
 }
