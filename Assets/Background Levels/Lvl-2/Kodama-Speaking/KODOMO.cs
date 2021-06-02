@@ -15,9 +15,7 @@ public class KODOMO : MonoBehaviour
             anim=GetComponent<Animator>();
           
         }
-    }
-
-  
+    } 
 
       void OnTriggerEnter2D(Collider2D obj){
         if(obj.tag=="Player"){
@@ -30,4 +28,9 @@ public class KODOMO : MonoBehaviour
         }
     }
     
+
+
+
+
+
 }
