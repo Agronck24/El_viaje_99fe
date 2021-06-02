@@ -115,7 +115,8 @@ public class PlayerControler2D : MonoBehaviour
         }
         
         
-          if(Input.GetKey(KeyCode.LeftShift)&& poder1==true && CooldawnDash==false){
+          if(Input.GetKey(KeyCode.LeftShift)&& poder1==true && CooldawnDash==false &&  Input.GetButton("Horizontal")){
+              
                 GetComponent<AudioSource>().Play();
                 anim.SetBool("Dash", true);
                 runSpeed= Speed;
@@ -123,7 +124,7 @@ public class PlayerControler2D : MonoBehaviour
                 
                 StartCoroutine ("EsperarDash");
                 StartCoroutine ("CDRDash");
-                 
+              
 
          }else{
               anim.SetBool("Dash", false);
@@ -149,7 +150,7 @@ public class PlayerControler2D : MonoBehaviour
                  if(Input.GetKeyDown(KeyCode.E)){
                      if(poder2==true){
                          
-                        gameObject.SetActive(false);
+                       gameObject.SetActive(false);
                      }    
                  }
            }else{
