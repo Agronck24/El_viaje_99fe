@@ -21,9 +21,11 @@ public class KODOMO : MonoBehaviour
         if(obj.tag=="Player"){
              
               anim.SetBool("SPIK", true);    
-              text.SetActive(true); 
-            
-        }else{
+              text.SetActive(true);
+              Destroy(gameObject, 10);
+
+        }
+        else{
              anim.SetBool("SPIK", false);
         }
     }
