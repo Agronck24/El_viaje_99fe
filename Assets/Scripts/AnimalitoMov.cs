@@ -65,7 +65,7 @@ public class AnimalitoMov : MonoBehaviour
             Fantasma.SetActive(true);
         }
 
-         if(Input.GetButton("Horizontal")&& ground==true)
+         if(Input.GetButton("Horizontal")&& ground==true && posession==true)
         {
            
            
@@ -85,10 +85,10 @@ public class AnimalitoMov : MonoBehaviour
 
       if(movement.x < -0.01f)
       {
-          gameObject.transform.localScale = new Vector3 (1,1,1);
+          gameObject.transform.localScale = new Vector3 (0.5f,0.5f,0.5f);
       }
       if(movement.x > -0.01f){
-          gameObject.transform.localScale = new Vector3 (-1,1,1);
+          gameObject.transform.localScale = new Vector3 (-0.5f,0.5f,0.5f);
       }
 
     }

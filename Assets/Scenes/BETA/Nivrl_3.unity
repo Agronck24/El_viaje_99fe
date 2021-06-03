@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1439,7 +1439,7 @@ GameObject:
   - component: {fileID: 156662900}
   m_Layer: 4
   m_Name: Seta-Curta
-  m_TagString: Untagged
+  m_TagString: suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4111,7 +4111,7 @@ PrefabInstance:
     - target: {fileID: 6569050946634813431, guid: 7ce37cd58a9458044abbfb02b950e09a,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6569050946773134228, guid: 7ce37cd58a9458044abbfb02b950e09a,
         type: 3}
@@ -5409,7 +5409,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 1669982ae5137844884f9782dcb762d5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8385,7 +8385,7 @@ MonoBehaviour:
   m_Follow: {fileID: 535036210}
   m_Lens:
     FieldOfView: 40
-    OrthographicSize: 18
+    OrthographicSize: 24
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
@@ -12957,7 +12957,7 @@ GameObject:
   - component: {fileID: 1270923888}
   m_Layer: 0
   m_Name: Lvl2-Branch-left
-  m_TagString: Untagged
+  m_TagString: suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12975,36 +12975,36 @@ PolygonCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.61, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 5.11, y: 2.07}
-    newSize: {x: 5.11, y: 2.07}
+    newSize: {x: 4.09, y: 2.07}
     adaptiveTilingThreshold: 0.5
-    drawMode: 0
+    drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 2.375, y: -0.565}
-      - {x: 2.315, y: -0.475}
-      - {x: 2.135, y: -0.415}
-      - {x: 1.865, y: -0.345}
-      - {x: 1.5949999, y: -0.265}
-      - {x: 1.4549999, y: -0.235}
+    - - {x: 1.4600552, y: -0.524023}
+      - {x: 1.4716412, y: -0.5649494}
+      - {x: 1.4468755, y: -0.5311757}
+      - {x: 1.445042, y: -0.41696414}
+      - {x: 1.4196659, y: -0.3484536}
+      - {x: 1.385326, y: -0.27557862}
       - {x: 1.3249999, y: -0.21499999}
       - {x: 1.125, y: -0.205}
       - {x: 1.0849999, y: -0.235}
       - {x: 0.895, y: -0.21499999}
       - {x: 0.615, y: -0.21499999}
       - {x: 0.615, y: -0.195}
-      - {x: 0.435, y: -0.185}
+      - {x: 0.43500006, y: -0.185}
       - {x: 0.255, y: -0.155}
-      - {x: 0.175, y: -0.145}
-      - {x: -0.024999999, y: -0.085}
-      - {x: -0.085, y: -0.044999998}
-      - {x: -0.145, y: -0.015}
+      - {x: 0.17500001, y: -0.145}
+      - {x: -0.024999976, y: -0.085}
+      - {x: -0.08499998, y: -0.044999998}
+      - {x: -0.14499998, y: -0.015}
       - {x: -0.305, y: 0.035}
       - {x: -0.415, y: 0.074999996}
       - {x: -0.695, y: 0.295}
@@ -13049,26 +13049,26 @@ PolygonCollider2D:
       - {x: -0.565, y: -0.575}
       - {x: -0.39499998, y: -0.555}
       - {x: -0.295, y: -0.53499997}
-      - {x: -0.024999999, y: -0.525}
-      - {x: 0.035, y: -0.515}
-      - {x: 0.225, y: -0.515}
+      - {x: -0.024999976, y: -0.525}
+      - {x: 0.035000026, y: -0.515}
+      - {x: 0.22500002, y: -0.515}
       - {x: 0.305, y: -0.53499997}
-      - {x: 0.49499997, y: -0.555}
+      - {x: 0.495, y: -0.555}
       - {x: 0.865, y: -0.545}
       - {x: 0.865, y: -0.565}
       - {x: 1.045, y: -0.565}
       - {x: 1.295, y: -0.585}
-      - {x: 1.545, y: -0.585}
-      - {x: 1.545, y: -0.60499996}
-      - {x: 1.765, y: -0.615}
-      - {x: 1.785, y: -0.645}
-      - {x: 1.9649999, y: -0.705}
-      - {x: 2.0449998, y: -0.715}
-      - {x: 2.195, y: -0.765}
-      - {x: 2.2849998, y: -0.815}
-      - {x: 2.375, y: -0.815}
-      - {x: 2.415, y: -0.755}
-      - {x: 2.415, y: -0.655}
+      - {x: 1.4635452, y: -0.61973023}
+      - {x: 1.3878282, y: -0.49444398}
+      - {x: 1.3419833, y: -0.49746612}
+      - {x: 1.4501201, y: -0.5062945}
+      - {x: 1.4140104, y: -0.5162159}
+      - {x: 1.3901855, y: -0.5038634}
+      - {x: 1.4046663, y: -0.55347776}
+      - {x: 1.2904317, y: -0.5171486}
+      - {x: 1.4236914, y: -0.48728934}
+      - {x: 1.4772812, y: -0.49868566}
+      - {x: 1.3947355, y: -0.46805203}
 --- !u!212 &1270923889
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13112,8 +13112,8 @@ SpriteRenderer:
   m_Color: {r: 0.24528301, g: 0.1955322, b: 0.1955322, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 5.11, y: 2.07}
+  m_DrawMode: 2
+  m_Size: {x: 4.09, y: 2.07}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -13126,13 +13126,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1270923887}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 96.3, y: 89.6, z: 0}
-  m_LocalScale: {x: -6, y: 6, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.03185852, w: 0.9994924}
+  m_LocalPosition: {x: 90.4, y: 89.2, z: 0}
+  m_LocalScale: {x: 6, y: 6, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 52
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -3.6510003}
 --- !u!1 &1273015097
 GameObject:
   m_ObjectHideFlags: 0
@@ -13330,7 +13330,7 @@ GameObject:
   - component: {fileID: 1313831923}
   m_Layer: 0
   m_Name: Lvl2-Branch-left (1)
-  m_TagString: Untagged
+  m_TagString: suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16553,7 +16553,7 @@ GameObject:
   - component: {fileID: 1605120992}
   m_Layer: 4
   m_Name: New Sprite
-  m_TagString: Untagged
+  m_TagString: suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17903,7 +17903,7 @@ GameObject:
   - component: {fileID: 1761689408}
   m_Layer: 4
   m_Name: tiles-2 copia-Recuperado
-  m_TagString: Untagged
+  m_TagString: suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18340,7 +18340,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813996648}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.4136415, y: 9.292679, z: -10}
+  m_LocalPosition: {x: 2.4136453, y: 9.292737, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 540145103}
@@ -18915,7 +18915,7 @@ GameObject:
   - component: {fileID: 1901300892}
   m_Layer: 4
   m_Name: suelo_lvl4
-  m_TagString: Untagged
+  m_TagString: suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
