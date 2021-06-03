@@ -43,6 +43,8 @@ public class PlayerControler2D : MonoBehaviour
 
    
     public bool cam;
+
+    public bool poseible;
     
 
     
@@ -65,6 +67,13 @@ public class PlayerControler2D : MonoBehaviour
     }
     void Update()
     {
+
+        if(Input.GetKeyDown(KeyCode.E)){
+                     if(poder2==true && poseible==true){
+                         
+                       //gameObject.SetActive(false);
+                     }    
+                 }
 
         if(AllAlmas==true){
            
@@ -138,25 +147,13 @@ public class PlayerControler2D : MonoBehaviour
 
     }
 
- void OnTriggerExit2D(Collider2D other){
-           if(other.tag=="poder2"){
-               cam=false;
-           }
- }
+ 
 
-             void OnTriggerStay2D(Collider2D other){
-           if(other.tag=="poder2"){
-               cam=false;
-                 if(Input.GetKeyDown(KeyCode.E)){
-                     if(poder2==true){
-                         
-                       gameObject.SetActive(false);
-                     }    
-                 }
-           }else{
-               cam=true;
-           }
-        }
+           
+                       
+                 
+        
+        
 
             void OnCollisionStay2D(Collision2D col) {
               
@@ -180,6 +177,7 @@ public class PlayerControler2D : MonoBehaviour
        }
         if(other.tag=="poder2"){
                cam=true;
+               poseible=true;
            }
         }
    
