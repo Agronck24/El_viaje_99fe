@@ -22,6 +22,11 @@ public class AnimalitoMov : MonoBehaviour
 
      private Animator anim;
 
+     private float horizontal = 0.0f;
+     private float vertical = 0.0f;
+
+     public bool ground;
+
 
   void Start()
   {
@@ -60,7 +65,7 @@ public class AnimalitoMov : MonoBehaviour
             Fantasma.SetActive(true);
         }
 
-         if(Input.GetButton("Horizontal"))
+         if(Input.GetButton("Horizontal")&& ground==true)
         {
            
            
@@ -69,7 +74,22 @@ public class AnimalitoMov : MonoBehaviour
         }else{
             anim.SetBool("WALK", false);
         }
-      
+
+        if(arbol==false && ground==false){
+            anim.SetBool("fly", true);
+        }else{
+            anim.SetBool("fly", false);
+        }
+      horizontal = movement.x > 0.01f ? movement.x : movement.x <-0.01f ? 1 : 0;
+      vertical = movement.y > 0.01f ? movement.y : movement.y <-0.01f ? 1 : 0;
+
+      if(movement.x < -0.01f)
+      {
+          gameObject.transform.localScale = new Vector3 (1,1,1);
+      }
+      if(movement.x > -0.01f){
+          gameObject.transform.localScale = new Vector3 (-1,1,1);
+      }
 
     }
 
@@ -131,7 +151,7 @@ public class AnimalitoMov : MonoBehaviour
      void OnCollisionStay2D(Collision2D col)
     {
         if(col.collider.tag=="suelo"){
-            
+            ground=true;
             
         }
     }
@@ -139,6 +159,16 @@ public class AnimalitoMov : MonoBehaviour
      void OnCollisionEnter2D(Collision2D col)
     {
         if(col.collider.tag=="suelo"){
+            ground=true;
+           
+            
+        }
+    }
+
+     void OnCollisionExit2D(Collision2D col)
+    {
+        if(col.collider.tag=="suelo"){
+            ground=false;
            
             
         }
