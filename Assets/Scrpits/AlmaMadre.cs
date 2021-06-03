@@ -14,7 +14,9 @@ public class AlmaMadre : MonoBehaviour
         if(obj.tag=="Player"){
             Puerta.SetActive(false);
             Debug.Log("hola");
-        gameObject.SetActive(false);
+            Destroy(gameObject);
+
+            gameObject.SetActive(false);
         }
     }
     
