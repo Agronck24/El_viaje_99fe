@@ -4,12 +4,10 @@ using UnityEngine;
 
 public class DestroyKodama : MonoBehaviour
 {
-    void DestroyObjectDelayed()
+    void Update()
     {
-        // Kills the game object in 5 seconds after loading the object
-        Destroy(gameObject, 5);
+        Destroy(gameObject, 4f);
     }
-
 
 
 }
