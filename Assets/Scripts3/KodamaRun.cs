@@ -24,7 +24,7 @@ public class KodamaRun : MonoBehaviour
 
             anim.SetBool("SSPIKK", true);
             text.SetActive(true);
-            Destroy(gameObject, 11);
+            Destroy(gameObject, 16);
 
         }
         else
@@ -34,6 +34,5 @@ public class KodamaRun : MonoBehaviour
         }
 
     }
-
     
 }
