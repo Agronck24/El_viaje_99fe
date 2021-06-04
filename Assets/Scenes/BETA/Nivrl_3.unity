@@ -4175,6 +4175,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1513776610}
+    - target: {fileID: 1449074684720221768, guid: 7ce37cd58a9458044abbfb02b950e09a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6569050946634813430, guid: 7ce37cd58a9458044abbfb02b950e09a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4238,7 +4243,7 @@ PrefabInstance:
     - target: {fileID: 6569050946634813431, guid: 7ce37cd58a9458044abbfb02b950e09a,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6569050946773134228, guid: 7ce37cd58a9458044abbfb02b950e09a,
         type: 3}
@@ -5458,7 +5463,7 @@ MonoBehaviour:
   posession: 0
   Fantasma: {fileID: 1155515249}
   pose: 0
-  ground: 0
+  ground: 1
 --- !u!61 &535036207
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5483,7 +5488,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.8677797, y: 2.255608}
+  m_Size: {x: 3.19, y: 2.255608}
   m_EdgeRadius: 0
 --- !u!50 &535036208
 Rigidbody2D:
@@ -5587,7 +5592,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: -3.1107583, y: -1.3948516}
   serializedVersion: 2
-  m_Radius: 2.6148605
+  m_Radius: 1.65
 --- !u!95 &535036212
 Animator:
   serializedVersion: 3
@@ -5756,7 +5761,7 @@ Transform:
   m_GameObject: {fileID: 546941408}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 36.7, y: 58.7, z: 0}
-  m_LocalScale: {x: 8, y: 8, z: 1}
+  m_LocalScale: {x: 15.8896, y: 15.8896, z: 1.9862}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 28
@@ -8700,7 +8705,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.6, y: 9.23}
+  m_Size: {x: 1.88, y: 9.23}
   m_EdgeRadius: 0
 --- !u!1 &831228516
 GameObject:
@@ -14781,7 +14786,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1397218606}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -108.34, y: 2.32, z: 128.95312}
+  m_LocalPosition: {x: -108.34, y: 0.8, z: 128.95312}
   m_LocalScale: {x: 16, y: 16, z: 0.8235}
   m_Children:
   - {fileID: 691674869}
@@ -18983,7 +18988,7 @@ GameObject:
   - component: {fileID: 1917449852}
   m_Layer: 0
   m_Name: Lvl2-Branch-left (2)
-  m_TagString: Untagged
+  m_TagString: suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20592,7 +20597,7 @@ GameObject:
   - component: {fileID: 2063124187}
   m_Layer: 0
   m_Name: Lvl2-Branch-left (3)
-  m_TagString: Untagged
+  m_TagString: suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20846,7 +20851,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2066638275}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -107.04, y: 63.38, z: 128.95312}
+  m_LocalPosition: {x: -107.04, y: 62.9, z: 128.95312}
   m_LocalScale: {x: 16, y: 16, z: 0.8235}
   m_Children:
   - {fileID: 657610845}

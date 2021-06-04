@@ -58,6 +58,14 @@ public class AnimalitoMov : MonoBehaviour
             
             Fantasma.SetActive(false);
             }
+
+             if(arbol==true && ground==false){
+            
+            anim.SetBool("CLIMB", true);
+           
+            }else{
+                 anim.SetBool("CLIMB", false);
+            }
        
        
         if(Input.GetKey(KeyCode.F)){
@@ -75,11 +83,25 @@ public class AnimalitoMov : MonoBehaviour
             anim.SetBool("WALK", false);
         }
 
+        if(Input.GetButton("Vertical")&& arbol==true && posession==true)
+        {
+           
+           
+             anim.SetBool("ESCALAR", true);
+           
+        }else{
+            anim.SetBool("ESCALAR", false);
+        }
+
         if(arbol==false && ground==false){
             anim.SetBool("fly", true);
         }else{
             anim.SetBool("fly", false);
         }
+
+
+
+        
       horizontal = movement.x > 0.01f ? movement.x : movement.x <-0.01f ? 1 : 0;
       vertical = movement.y > 0.01f ? movement.y : movement.y <-0.01f ? 1 : 0;
 
